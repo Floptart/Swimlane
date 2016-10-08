@@ -1,0 +1,24 @@
+21:32:10.831 INFO - Selenium build info: version: '3.0.0-beta4', revision: '3169782'
+21:32:10.832 INFO - Launching a standalone Selenium Server
+2016-10-07 21:32:10.849:INFO::main: Logging initialized @264ms
+21:32:10.915 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:32:10.915 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:32:10.915 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:32:10.915 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+21:32:10.916 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:32:10.916 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:32:10.917 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+21:32:10.927 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+21:32:10.927 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver registration is skipped:
+Unable to create new instances on this machine.
+21:32:10.928 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+21:32:10.928 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+2016-10-07 21:32:10.958:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-10-07 21:32:10.987:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3c756e4d{/,null,AVAILABLE}
+2016-10-07 21:32:11.007:INFO:osjs.ServerConnector:main: Started ServerConnector@58651fd0{HTTP/1.1}{0.0.0.0:4444}
+2016-10-07 21:32:11.007:INFO:osjs.Server:main: Started @422ms
+21:32:11.007 INFO - Selenium Server is up and running
