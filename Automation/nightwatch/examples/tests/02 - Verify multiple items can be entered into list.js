@@ -7,21 +7,16 @@ module.exports = {
 			//Waits until input box is visible
 			.waitForElementPresent('input', 1000)
 
-			//Types 'test 1' into the input box
-			.setValue('input', 'test 1')
+			//Loops through entering text and pressing enter 5 times
+			.perform(function() {
+				for (var i = 0; i < 5; i += 1) {
+					browser.setValue('input', 'test ' + i)
+					browser.sendKeys('input', browser.Keys.ENTER);
+				}})
 
-			//Presses the enter key to add to list
-			.sendKeys('input', browser.Keys.ENTER)
-
-			//Types 'test 2' into the input box
-			.setValue('input', 'test 2')
-
-			//Presses the enter key to add to list
-			.sendKeys('input', browser.Keys.ENTER)
-
-			//Verifies that 2 line items are present in todo-list class
+			//Verifies that 5 line items are present in todo-list class
 			.elements('css selector','.todo-list li', function (result) {
-    			browser.assert.equal(result.value.length, 2);
+    			browser.assert.equal(result.value.length, 5);
 			})
 			
 			//Ends test and closes browser
@@ -29,3 +24,5 @@ module.exports = {
 
 		}
 	};
+
+
