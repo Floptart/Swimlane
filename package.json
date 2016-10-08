@@ -1,0 +1,21 @@
+{
+  "name": "Swimlane",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floptart/Swimlane/issues"
+  },
+  "homepage": "https://github.com/Floptart/Swimlane#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.8",
+    "selenium-download": "^2.0.6"
+  }
+}
