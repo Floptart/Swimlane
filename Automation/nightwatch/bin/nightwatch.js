@@ -1,0 +1,1 @@
+require('C:/Users/John/Desktop/Swimlane/Automation/nightwatch/bin/runner.js');
