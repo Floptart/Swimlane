@@ -9,3 +9,7 @@ xcopy %source% %destination% /y
 set source=windows\chromedriver.exe
 set destination=nightwatch\bin
 xcopy %source% %destination% /y
+
+set source=windows\package.json
+set destination=nightwatch
+xcopy %source% %destination% /y
