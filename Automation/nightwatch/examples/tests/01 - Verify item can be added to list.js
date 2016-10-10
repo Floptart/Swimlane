@@ -9,7 +9,6 @@ module.exports = {
 
 			//Types 'test 1' into the input box
 			.setValue('input', 'test 1')
-			.pause('100')
 
 			//Presses the enter key to add to list
 			.sendKeys('input', browser.Keys.ENTER)

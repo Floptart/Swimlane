@@ -10,7 +10,7 @@ module.exports = {
 			//Loops through entering text and pressing enter 5 times
 			.perform(function() {
 				for (var i = 0; i < 5; i += 1) {
-					browser.setValue('input', 'test ' + i)
+					browser.setValue('input', i)
 					browser.sendKeys('input', browser.Keys.ENTER);
 				}})
 

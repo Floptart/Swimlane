@@ -10,7 +10,7 @@ module.exports = {
 			//Loops through entering text and pressing enter 5 times
 			.perform(function() {
 				for (var i = 0; i < 5; i += 1) {
-					browser.setValue('input', 'test ' + i)
+					browser.setValue('input', i)
 					browser.sendKeys('input', browser.Keys.ENTER);
 				}})
 
@@ -23,7 +23,7 @@ module.exports = {
 			.refresh()
 			
 			//Waits for page to finish reloading
-			.waitForElementPresent('body', 1000)
+			.waitForElementPresent('.todo-list li', 1000)
 			
 			//Verifies that 5 line items persisted through refresh
 			.elements('css selector','.todo-list li', function (result) {
