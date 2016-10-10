@@ -8,13 +8,13 @@ module.exports = {
 			.waitForElementPresent('input', 1000)
 
 			//Types 'test 1' into the input box
-			.setValue('input', 'test 1')
+			.setValue('input', '1')
 
 			//Presses the enter key to add to list
 			.sendKeys('input', browser.Keys.ENTER)
 			
 			//Checks that initial entry is "test 1"
-			.assert.containsText('label', 'test 1')
+			.assert.containsText('label', '1')
 
 			//Waits for item to be added to list
 			.waitForElementPresent('input.toggle', 1000)
@@ -29,7 +29,7 @@ module.exports = {
 			.sendKeys('input.edit', browser.Keys.ENTER)
 			
 			//Checks to make sure text has been edited
-			.assert.containsText('label', 'test 1 edited')
+			.assert.containsText('label', '1 edited')
 			
 			//Ends test and closes browser
 			.end();

@@ -8,7 +8,7 @@ module.exports = {
 			.waitForElementPresent('input', 1000)
 
 			//Types 'test 1' into the input box
-			.setValue('input', 'test 1')
+			.setValue('input', '1')
 
 			//Presses the enter key to add to list
 			.sendKeys('input', browser.Keys.ENTER)

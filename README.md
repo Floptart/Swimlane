@@ -31,3 +31,5 @@ For Mac:
 >	4. npm install
 >	5. npm run swimlane
 
+
+Path to the scripts that I wrote: Swimlane\Automation\nightwatch\examples\tests
